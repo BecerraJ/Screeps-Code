@@ -1,0 +1,13 @@
+/*
+ * Module code goes here. Use 'module.exports' to export things:
+ * module.exports.thing = 'a thing';
+ *
+ * You can import it from another modules like this:
+ * var mod = require('role.claimer');
+ * mod.thing == 'a thing'; // true
+ */
+
+module.exports = {
+
+    creep.moveTo(creep.pos.findClosestByRange(creep.room.findExitTo(creep.memory.target)));
+};
